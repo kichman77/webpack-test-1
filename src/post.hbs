@@ -1,14 +1,14 @@
 {{#each this}}
-<li>
+<li class="item">
 
-  <div>
+  <div >
     <img src={{author.avatar}} alt={{author.name}}>
-    <p>{{author.name}}</p>
+    <p class="text">{{author.name}}</p>
   </div>
 
-  <p>{{text}}</p>
+  <p class="text">{{text}}</p>
 
-  <p>{{creatAt}}</p>
+  <p class="text">{{creatAt}}</p>
 
   <ul>
     {{#each tags}}
